@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/food/food",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/foodcontent/foodcontent"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"whites"
+  },
+  "tabBar": {
+    "selectedColor": "purple",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home.png",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "iconPath":"images/food.png",
+        "selectedIconPath": "images/food.png",
+        "text": "food"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my.png",
+        "text": "my"
+      }
+    ]
+}
+}

@@ -1,0 +1,10 @@
+<!--pages/foodcontent/foodcontent.wxml-->
+<view class='p-img'>
+  <image src="{{host}}{{list.img_url}}"></image>
+</view>
+<view class='h2'>
+{{list.title}}
+</view>
+<view class='content'>
+{{list.content}}
+</view>

@@ -1,0 +1,12 @@
+<!--pages/food/food.wxml-->
+<view class='content'>
+<view wx:for="{{list}}" wx:key="{{item._id}}">
+  <view class='h2'>{{item.title}}</view>
+  <view class='list'>
+    <view class='item' wx:for="{{item.list}}" wx:for-item="item2" wx:key="{{item2.id}}" bindtap='goContent' data-id="{{item2._id}}">
+      <image src='{{host}}{{item2.img_url}}'></image>
+      <text>{{item2.title}}</text>
+    </view>
+  </view>
+</view>  
+</view>
